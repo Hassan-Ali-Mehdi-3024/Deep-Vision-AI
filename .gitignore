@@ -62,3 +62,8 @@ Desktop.ini
 *.tmp
 *.temp
 .cache/
+
+# Vercel
+.vercel
+.vercel/
+*.vercel

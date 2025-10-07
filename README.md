@@ -75,6 +75,39 @@ npm run build
 
 The production-ready files will be in the `dist/` directory.
 
+## 🌐 Deployment
+
+### Deploy to Vercel (Recommended)
+
+1. Install Vercel CLI (optional):
+```bash
+npm i -g vercel
+```
+
+2. Deploy:
+```bash
+vercel
+```
+
+Or simply:
+- Push your code to GitHub
+- Import the repository on [Vercel](https://vercel.com)
+- Vercel will automatically detect Vite and deploy
+
+### Deploy to Other Platforms
+
+**Netlify:**
+- Build command: `npm run build`
+- Publish directory: `dist`
+
+**GitHub Pages:**
+- Build command: `npm run build`
+- Deploy the `dist` folder
+
+**Railway/Render:**
+- Build command: `npm run build`
+- Start command: `npm run preview`
+
 ## 📖 Program Structure
 
 ### Week 1: Grass Root & Foundations

@@ -1,0 +1,28 @@
+# Python scripts
+*.py
+__pycache__/
+
+# Development files
+*.md
+!README.md
+
+# Git
+.git
+.gitignore
+
+# IDE
+.vscode
+.idea
+
+# Logs
+*.log
+
+# PDFs
+*.pdf
+
+# Node modules (Vercel handles this)
+node_modules
+
+# Build artifacts
+dist
+.cache
